@@ -21,14 +21,18 @@ body{
     color: #f9faf8;
     
 }
-.header-container,.text-container,.box-container{
+.header-container,.text-container{
     display: flex;
+    
     /* justify-content: space-between; */
     /* justify-content: flex-end; */
 }
 .logo{
     font-size: 24px;
     font-weight: 900;
+    padding-left: 87px;
+    padding-top: 10px;
+    width: 200px;
     
 }
 .links{
@@ -38,6 +42,7 @@ body{
     justify-content: flex-end;
     gap: 10px;
     padding-right: 25px;
+    padding-top: 10px;
 }
 
 a{
@@ -49,7 +54,7 @@ a{
     /* background-color: green; */
     display: flex;
     flex-direction: column;
-    margin: 100px;
+    margin: 80px;
     /* align-items: center; */
 }
 
@@ -74,7 +79,7 @@ a{
     flex-shrink: 1;
     
     /* margin-right: 40px; */
-    margin: right 60px;;
+    /* margin-right: 50px; */
 }
 .subtext{
     width: 400px;
@@ -99,9 +104,121 @@ a{
     border-radius: 10%;
    
 }
+.box-container{
+    display: flex;
+    gap: 50px;
+    height: 350px;
+    justify-content: center;
+}
 
+.box-subtext{
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    
+}
 .illust{
-    /* flex-wrap: wrap; */
-    /* color: aqua; */
-    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    /* flex: 1; */
+    /* margin-bottom: 50px; */
+    
+}
+.random-container div h2{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quote-container{
+    background-color: #e5e7eb;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;   
+    
+}
+.quote{
+    font-weight: 20;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    margin-left: 150px;
+    margin-top: 100px;
+    align-self: center;
+    width: 750px;
+   /* align-items: flex-end; */
+}
+
+.name{
+    margin-top: 0;
+    margin-left: 650px;
+    font-size: 20px;
+    /* align-self: baseline; */
+}
+
+.last-container{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 280px;
+    margin-bottom: 100px;
+    padding: 40px;
+
+}
+.sign-up-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    height: 150px;
+    width: 800px;
+    margin: 80px 220px;
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    color: #f9faf8;
+   
+    
+}
+.sign-up{
+    height: 40px;
+    margin-left: 50px;
+}
+.sign-up button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    height: 40px;
+    width: 90px;
+    border: 3px solid #f9faf8;
+    font-weight: 1000;
+    border-radius: 10px;
+    /* padding: 15px; */
+}
+.call{
+    background-color: royalblue;
+    height: 200px;
+    width: 900px;
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+
+}
+
+footer{
+    color: #f9faf8;
+    background-color: black;
+    text-align: center;
+    font-weight: 400;
+    height: 25px;
 }
